@@ -1,0 +1,77 @@
+/*color palette
+hsl(6,100%,36%)
+hsl(203,86%,8%)
+hsl(187,97%,29%)
+*/
+@font-face {
+    font-family: 'Contemporary';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Contemporary'), local('Contemporary-Regular'), url('https://vicr123.com/assets/fonts/Contemporary-Regular-954a9a92658ecef6afca8dbccd5aab6d.ttf');
+}
+*{
+    color: white;
+    font-family: Contemporary;
+    margin-top: 0;
+}
+body{
+    margin: 0px;
+}
+
+.topnav p{
+    float: left;
+    margin-top: 14px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.topnav{
+    height: 48px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    align-items: center;
+    background-color: hsl(203,86%,5%);
+}
+/*following code copied from w3schools (https://www.w3schools.com/howto/howto_js_topnav.asp) (modified)*/
+.topnav a {
+    float: right;
+    color: #ffffff;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 3px;
+    padding: 11px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+}
+/*w3schools code ends here*/
+.topnav .active {
+    background-color: hsl(187,97%,29%);
+}
+.topnav a:hover {
+    background-color: rgb(22, 22, 27);
+    box-shadow:0px 5px 10px rgba(0, 0, 0, 0.19);
+}
+.topnav .active:hover {
+    background-color: rgba(71, 73, 251, 1);
+    box-shadow:0px 5px 10px rgba(0, 0, 0, 0.19);
+}
+.hero{
+    height: 400px;
+}
+#hero1{
+    background: rgb(2,107,121);
+    background: linear-gradient(32deg, rgba(2,107,121,1) 22%, rgba(2,108,122,1) 23%, rgba(3,178,201,1) 100%);
+}
+#hero2{
+    background-color: hsl(187,97%,20%); /*placeholder! Replace this with another colour or an image.*/
+}
+.heroheading{
+    padding-top: 180px;
+    margin-left: 10px;
+}
+.herosubheading{
+    margin-left: 10px;
+    font-size: 20px;
+}
