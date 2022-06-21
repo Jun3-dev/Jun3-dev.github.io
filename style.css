@@ -69,9 +69,21 @@ body{
 }
 .heroheading{
     padding-top: 180px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 .herosubheading{
-    margin-left: 10px;
+    margin-left: 30px;
     font-size: 20px;
+}
+.herominorheading{
+    margin-left: 30px;
+    padding-top: 30px;
+    font-size: 25px;
+}
+.projectcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
