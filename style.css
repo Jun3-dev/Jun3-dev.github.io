@@ -112,3 +112,8 @@ body{
     font-size: 14px;
     color: grey;
 }
+.footer{
+    background-color: hsl(240,10%,5%);
+    padding: 20px 0px;
+    text-align: center;
+}
