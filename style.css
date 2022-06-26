@@ -31,7 +31,7 @@ body{
     z-index: 1;
     width: 100%;
     align-items: center;
-    background-color: hsl(203,86%,5%);
+    background-color: hsl(240,10%,15%);
 }
 /*following code copied from w3schools (https://www.w3schools.com/howto/howto_js_topnav.asp) (modified)*/
 .topnav a {
@@ -65,7 +65,7 @@ body{
     background: linear-gradient(32deg, rgba(2,107,121,1) 22%, rgba(2,108,122,1) 23%, rgba(3,178,201,1) 100%);
 }
 #hero2{
-    background-color: hsl(187,97%,20%); /*placeholder! Replace this with another colour or an image.*/
+    background-color: hsl(240,10%,11%); /*placeholder! Replace this with another colour or an image.*/
 }
 .heroheading{
     padding-top: 180px;
