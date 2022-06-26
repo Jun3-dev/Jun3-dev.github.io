@@ -87,3 +87,28 @@ body{
     justify-content: space-evenly;
     flex-direction: row;
 }
+.githubcard{
+    height: 200px;
+    width: 350px;
+    background-color: hsl(240,20%,10%);
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.githubprofilepic{
+    border-radius: 99999px;
+    height: 75px;
+    margin-top: 20px;
+}
+.githubprojectlink{
+    text-decoration: none;
+}
+.githubprojectlink:hover{
+    color: hsl(240,50%,55%);
+    text-decoration: underline;
+}
+.aboutgithubproject{
+    font-size: 14px;
+    color: grey;
+}
