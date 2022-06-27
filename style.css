@@ -54,11 +54,11 @@ body{
     box-shadow:0px 5px 10px rgba(0, 0, 0, 0.19);
 }
 .topnav .active:hover {
-    background-color: rgba(71, 73, 251, 1);
+    background-color: hsl(187,97%,29%);
     box-shadow:0px 5px 10px rgba(0, 0, 0, 0.19);
 }
 .hero{
-    height: 400px;
+    height: 500px;
 }
 #hero1{
     background: rgb(2,107,121);
@@ -66,9 +66,10 @@ body{
 }
 #hero2{
     background-color: hsl(240,10%,11%); /*placeholder! Replace this with another colour or an image.*/
+    height: 350px;
 }
 .heroheading{
-    padding-top: 180px;
+    padding-top: 210px;
     margin-left: 30px;
 }
 .herosubheading{
@@ -87,6 +88,7 @@ body{
     justify-content: space-evenly;
     flex-direction: row;
 }
+
 .githubcard{
     height: 200px;
     width: 350px;
@@ -95,6 +97,7 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .githubprofilepic{
     border-radius: 99999px;
@@ -114,6 +117,17 @@ body{
 }
 .footer{
     background-color: hsl(240,10%,5%);
-    padding: 20px 0px;
+    padding: 5% 0px;
     text-align: center;
+}
+.projectsmain{
+    background-color: hsl(240,10%,11%);
+    padding: 69px 0px; /*xD*/
+}
+.projectsmainflex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
 }
