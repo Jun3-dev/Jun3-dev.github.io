@@ -124,7 +124,7 @@ body{
 }
 .projectsmain{
     background-color: hsl(240,10%,11%);
-    padding: 100px 10px;
+    padding: 50px 10px;
 }
 .projectsmainflex{
     display: flex;
@@ -139,4 +139,9 @@ body{
 }
 .projectsmain h1{
     margin-left: 10px;
+}
+.topbanner{
+    height: 200px;
+    background: hsl(10,62%,58%);
+    background: linear-gradient(32deg, hsl(10,62%,58%) 22%, hsl(10,62%,58%) 23%, hsl(349,23%,40%) 100%);
 }
