@@ -124,7 +124,7 @@ body{
 }
 .projectsmain{
     background-color: hsl(240,10%,11%);
-    padding: 69px 0px; /*xD*/
+    padding: 100px 10px;
 }
 .projectsmainflex{
     display: flex;
@@ -132,6 +132,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    padding-top: 30px;
 }
 .projectsmainflex .githubcard{
     margin: 15px;
