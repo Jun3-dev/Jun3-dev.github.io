@@ -1,7 +1,9 @@
 /*color palette
-hsl(6,100%,36%)
-hsl(203,86%,8%)
-hsl(187,97%,29%)
+    hex(11151C) hsl(218,24%,9%)
+    hex(212D40) hsl(217,32%,19%)
+    hex(364156) hsl(219,23%,27%)
+    hex(7D4E57) hsl(349,23%,40%)
+    hex(D66853) hsl(10,62%,58%)
 */
 @font-face {
     font-family: 'Contemporary';
@@ -47,22 +49,22 @@ body{
 }
 /*w3schools code ends here*/
 .topnav .active {
-    background-color: hsl(187,97%,29%);
+    background-color: hsl(10,62%,58%);
 }
 .topnav a:hover {
     background-color: rgb(22, 22, 27);
     box-shadow:0px 5px 10px rgba(0, 0, 0, 0.19);
 }
 .topnav .active:hover {
-    background-color: hsl(187,97%,29%);
+    background-color: hsl(10,62%,58%);
     box-shadow:0px 5px 10px rgba(0, 0, 0, 0.19);
 }
 .hero{
     height: 500px;
 }
 #hero1{
-    background: rgb(2,107,121);
-    background: linear-gradient(32deg, rgba(2,107,121,1) 22%, rgba(2,108,122,1) 23%, rgba(3,178,201,1) 100%);
+    background: hsl(10,62%,58%);
+    background: linear-gradient(32deg, hsl(10,62%,58%) 22%, hsl(10,62%,58%) 23%, hsl(349,23%,40%) 100%);
 }
 #hero2{
     background-color: hsl(240,10%,11%); /*placeholder! Replace this with another colour or an image.*/
@@ -108,7 +110,7 @@ body{
     text-decoration: none;
 }
 .githubprojectlink:hover{
-    color: hsl(240,50%,55%);
+    color: hsl(10,62%,58%);
     text-decoration: underline;
 }
 .aboutgithubproject{
