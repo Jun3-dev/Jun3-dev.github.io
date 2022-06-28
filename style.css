@@ -136,3 +136,6 @@ body{
 .projectsmainflex .githubcard{
     margin: 15px;
 }
+.projectsmain h1{
+    margin-left: 10px;
+}
