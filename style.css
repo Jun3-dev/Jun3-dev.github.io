@@ -67,7 +67,7 @@ body{
     background: linear-gradient(32deg, hsl(10,62%,58%) 22%, hsl(10,62%,58%) 23%, hsl(349,23%,40%) 100%);
 }
 #hero2{
-    background-color: hsl(240,10%,11%); /*placeholder! Replace this with another colour or an image.*/
+    background-color: hsl(240,10%,11%);
     height: 400px;
 }
 .heroheading{
@@ -178,4 +178,20 @@ a{
 .socialsitem:hover{
     color: hsl(10,62%,58%);
     text-decoration: underline;
+}
+#hero3{
+    background-color: hsl(240,10%,9%);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.image {
+    flex-basis: 40%;
+}
+.image img{
+    border-radius: 70px;
+}
+.text {
+    font-size: 20px;
+    padding-left: 20px;
 }
