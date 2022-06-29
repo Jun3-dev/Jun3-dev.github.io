@@ -151,7 +151,7 @@ a{
 .socialsflex{
     display: flex;
     flex-wrap: wrap;
-    align-items: last;
+    align-items: center;
     justify-content: center;
     flex-direction: row;
 }
