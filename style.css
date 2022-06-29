@@ -173,6 +173,7 @@ a{
 }
 .socialsitem img{
     margin-top: 20px;
+    margin-right: 10px;
 }
 .socialsitem:hover{
     color: hsl(10,62%,58%);
