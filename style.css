@@ -145,3 +145,19 @@ body{
     background: hsl(10,62%,58%);
     background: linear-gradient(32deg, hsl(10,62%,58%) 22%, hsl(10,62%,58%) 23%, hsl(349,23%,40%) 100%);
 }
+a{
+    text-decoration: none;
+}
+.socialsflex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: last;
+    justify-content: center;
+    flex-direction: row;
+}
+.socialsitem{
+    margin-left: 25px;
+}
+.mecredit{ /*:)*/
+    padding-top: 20px;
+}
