@@ -165,7 +165,16 @@ a{
 }
 .mecredit{ /*:)*/
     padding-top: 20px;
+
+}
+.mecredit a:hover{
+    color: hsl(10,62%,58%);
+    text-decoration: underline;
 }
 .socialsitem img{
     margin-top: 20px;
+}
+.socialsitem:hover{
+    color: hsl(10,62%,58%);
+    text-decoration: underline;
 }
