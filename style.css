@@ -111,7 +111,6 @@ body{
 }
 .githubprojectlink:hover{
     color: hsl(10,62%,58%);
-    text-decoration: underline;
 }
 .aboutgithubproject{
     font-size: 14px;
@@ -169,7 +168,6 @@ a{
 }
 .mecredit a:hover{
     color: hsl(10,62%,58%);
-    text-decoration: underline;
 }
 .socialsitem img{
     margin-top: 20px;
@@ -177,7 +175,6 @@ a{
 }
 .socialsitem:hover{
     color: hsl(10,62%,58%);
-    text-decoration: underline;
 }
 #hero3{
     background-color: hsl(240,10%,9%);
