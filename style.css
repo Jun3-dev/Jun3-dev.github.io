@@ -186,6 +186,7 @@ a{
 .image {
     flex-basis: 40%;
     padding-left: 100px;
+    padding-right: 100px;
 }
 .image img{
     border-radius: 70px;
