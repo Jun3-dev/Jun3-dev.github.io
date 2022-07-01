@@ -196,7 +196,7 @@ a{
 
 ::-webkit-scrollbar {
     width: 12px;
-    background-color: transparent;
+    background-color: #282a2d;
 }
 
 ::-webkit-scrollbar-button {
@@ -206,7 +206,7 @@ a{
 }
 
 ::-webkit-scrollbar-corner {
-    background-color: transparent;
+    background-color: #282a2d;
 }
 
 ::-webkit-scrollbar-thumb {
