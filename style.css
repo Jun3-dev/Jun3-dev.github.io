@@ -15,8 +15,6 @@
     color: white;
     font-family: Contemporary;
     margin-top: 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 body{
     margin: 0px;
