@@ -265,6 +265,31 @@ body{
     .fuckyoujun{
         height: 400px;
     }
+    .jungallerybody{
+        background-color: hsl(240, 10%, 9%);
+    }
+    .jungallerybody h1{
+        font-size: 40px;
+    }
+    .galleryflex{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .galleryitem{
+        height: 400px;
+        padding-top: 20px;
+        border-radius: 50px;
+    }
+    .gallerytopbanner{
+        height: 100px;
+        background: hsl(10, 62%, 58%);
+        background: linear-gradient(32deg, hsl(10, 62%, 58%) 22%, hsl(10, 62%, 58%) 23%, hsl(349, 23%, 40%) 100%);
+        padding-top: 50px;
+        padding-left: 30px;
+    }
 @media only screen and (max-width: 620px) {
     html, body {
         max-width: 100%;
