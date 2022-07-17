@@ -287,7 +287,7 @@ body{
         height: 100px;
         background-image: url("https://cdn.discordapp.com/attachments/812827839606161408/998072826718331090/C39BF443-ADE3-4072-BBA8-44EF5DAC64E5.jpg");
         background-repeat: repeat-x;
-        background-size: 200px;
+        background-size: 200px 300px;
         padding-top: 50px;
         padding-left: 30px;
         background-blend-mode: overlay;
@@ -360,6 +360,9 @@ body{
     .footer{
         padding: 14% 0%;
     }
+    .gallerytopbanner{
+        height: 240px;
+    }
 }
 @media only screen and (min-width: 620px) and (max-width: 820px){ /*vertical tablet*/
     html, body {
@@ -409,9 +412,6 @@ body{
     }
     #footerhome{
         margin-top: 800px;
-    }
-    .gallerytopbanner{
-        height: 240px;
     }
 }
 @media only screen and (min-width: 820px) and (max-width: 1170px){ /*horizontal tablet*/
