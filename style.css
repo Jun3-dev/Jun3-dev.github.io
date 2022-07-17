@@ -297,6 +297,11 @@ body{
         float: right;
         padding-right: 10px;
     }
+    .backtoyou{
+        float: right;
+        padding-top: 3px;
+        padding-right: 5px;
+    }
 @media only screen and (max-width: 620px) {
     /*Mobile*/
     html, body {
