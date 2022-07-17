@@ -285,10 +285,13 @@ body{
     }
     .gallerytopbanner{
         height: 100px;
-        background: hsl(10, 62%, 58%);
-        background: linear-gradient(32deg, hsl(10, 62%, 58%) 22%, hsl(10, 62%, 58%) 23%, hsl(349, 23%, 40%) 100%);
+        background-image: url("https://cdn.discordapp.com/attachments/812827839606161408/998072826718331090/C39BF443-ADE3-4072-BBA8-44EF5DAC64E5.jpg");
+        background-repeat: repeat-x;
+        background-size: 200px;
         padding-top: 50px;
         padding-left: 30px;
+        background-blend-mode: overlay;
+        background-color: rgba(0, 0, 0, 0.4);
     }
     .oldbrowsers{
         float: right;
