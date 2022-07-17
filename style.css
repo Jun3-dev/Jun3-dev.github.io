@@ -400,6 +400,9 @@ body{
     #footerhome{
         margin-top: 800px;
     }
+    .gallerytopbanner{
+        height: 240px;
+    }
 }
 @media only screen and (min-width: 820px) and (max-width: 1170px){ /*horizontal tablet*/
     #hero2{
