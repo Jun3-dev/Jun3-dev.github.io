@@ -291,14 +291,17 @@ body{
         padding-left: 30px;
     }
 @media only screen and (max-width: 620px) {
+    /*Mobile*/
     html, body {
         max-width: 100%;
         overflow-x: hidden;
     }
-    .githubcard{
+
+    .githubcard {
         width: 80%;
         padding: 0% 10%;
     }
+
     .projectcontainer {
         display: flex;
         flex-wrap: wrap;
@@ -306,19 +309,24 @@ body{
         justify-content: flex-start;
         flex-direction: column;
     }
-    #hero2{
+
+    #hero2 {
         height: 800px;
     }
-    .image img{
+
+    .image img {
         height: 300px;
     }
+
     .aboutjuntext {
         padding-right: 0px;
     }
+
     .text {
         font-size: 20px;
         text-align: center;
     }
+
     #hero3 {
         background-color: hsl(240, 10%, 9%);
         display: flex;
@@ -327,7 +335,8 @@ body{
         flex-direction: column;
         height: 800px;
     }
-    #hero4{
+
+    #hero4 {
         display: flex;
         justify-content: flex-start;
         flex-direction: column-reverse;
@@ -337,10 +346,10 @@ body{
         padding-left: 0px;
         width: 100%;
     }
-    #footerhome{
+
+    #footerhome {
         margin-top: 800px;
     }
-    /*this is a comment so i can commit and push a "new file" to try and update the css*/
 }
 @media only screen and (min-width: 620px) and (max-width: 820px){ /*vertical tablet*/
     html, body {
@@ -392,7 +401,7 @@ body{
         margin-top: 800px;
     }
 }
-@media only screen and (min-width: 820px) and (max-width: 1170px){
+@media only screen and (min-width: 820px) and (max-width: 1170px){ /*horizontal tablet*/
     #hero2{
         height: 600px;
     }
