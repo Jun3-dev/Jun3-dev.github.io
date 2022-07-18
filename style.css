@@ -297,6 +297,9 @@ body{
         float: right;
         padding-right: 10px;
     }
+    .browsericon{
+        height: 40px;
+    }
 @media only screen and (max-width: 620px) {
     /*Mobile*/
     html, body {
@@ -318,6 +321,7 @@ body{
     }
 
     #hero2 {
+        height: 800px;
         height: 800px;
     }
 
