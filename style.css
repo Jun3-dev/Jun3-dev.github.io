@@ -344,6 +344,7 @@ body{
     
     #songs {
         height: 800px;
+        background-color: hsl(240, 10%, 11%);
     }
 
     .image img {
@@ -418,6 +419,7 @@ body{
     }
     #songs {
         height: 800px;
+        background-color: hsl(240, 10%, 11%);
     }
     .image img{
         height: 300px;
@@ -457,5 +459,6 @@ body{
     }
     #songs {
         height: 800px;
+        background-color: hsl(240, 10%, 11%);
     }
 }
