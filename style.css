@@ -77,6 +77,11 @@ body{
         height: 400px;
     }
 
+    #songs {
+        background-color: hsl(240, 10%, 11%);
+        height: 530px;
+    }
+
     .heroheading {
         padding-top: 210px;
         margin-left: 30px;
@@ -89,6 +94,12 @@ body{
 
     .herominorheading {
         margin-left: 30px;
+        padding-top: 30px;
+        font-size: 25px;
+    }
+
+    .songsOfTheMonth {
+        margin-left: 22px;
         padding-top: 30px;
         font-size: 25px;
     }
@@ -330,6 +341,10 @@ body{
         height: 800px;
         height: 800px;
     }
+    
+    #songs {
+        height: 800px;
+    }
 
     .image img {
         height: 300px;
@@ -401,6 +416,9 @@ body{
     #hero2{
         height: 800px;
     }
+    #songs {
+        height: 800px;
+    }
     .image img{
         height: 300px;
     }
@@ -436,5 +454,8 @@ body{
 @media only screen and (min-width: 820px) and (max-width: 1170px){ /*horizontal tablet*/
     #hero2{
         height: 600px;
+    }
+    #songs {
+        height: 800px;
     }
 }
